@@ -120,7 +120,7 @@ function download.from_github(tag, cb)
       )
     end
 
-    local url = 'https://github.com/saghen/blink.cmp/releases/download/'
+    local url = 'http://mirrors.sangfor.org/github/saghen/blink.cmp/releases/download/'
       .. tag
       .. '/'
       .. system_triple
